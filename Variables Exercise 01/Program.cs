@@ -64,6 +64,21 @@ namespace Variables_Exercise_01
             // Make sure to use C# naming convention best practices (camelCase, PascalCase, etc...)
 
 
+            sbyte sbyte1,sbyte2;               // 8 bit	                      -128 to 127
+            byte byte1,byte2;                 // 8 bit	                         0 to 255
+            short short1,short2;               // 16 bit	                   -32,768 to 32,767
+            ushort ushort1,ushort2;             // 16 bit	                         0 to 65,535
+            int  num,sum;                   // 32 bit	            -2,147,483,648 to 2,147,483,647
+            uint uint1,uint2;                 // 32 bit	                         0 to 4,294,967,295
+            long long1,long2;                 // 64 bit	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+            ulong ulong1,ulong2;               // 64 bit	                         0 to 18,446,744,073,709,551,615
+
+            float number,add1;
+            double _doubleNumber1,_doubleNumber2;
+            decimal _myMoney,_myInterest;
+
+            char initialFirst,initialLast;                 // 16 bit	                         0 to 65535
+            bool isvalid,isalive;
 
 
             // TODO: Initialize 1 of the variables with that datatypes minimum value
@@ -73,8 +88,8 @@ namespace Variables_Exercise_01
             _sbyte = -128;
             _byte = 255;
 
-            Console.WriteLine("integers");
-            Console.WriteLine($"The values are { _sbyte}  { _byte}");
+            
+            Console.WriteLine($"The minimum value for sbyte datatype is { _sbyte} and the maximum value for byte datatype is { _byte}");
            
             
 
