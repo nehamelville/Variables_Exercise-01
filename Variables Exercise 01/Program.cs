@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Variables_Exercise_01
 {
@@ -52,6 +53,12 @@ namespace Variables_Exercise_01
 
             // TODO: Declare 5 constansts
 
+            const int days = 10;
+            const int week = 4;
+            const int month = 12;
+            const int year = 2021;
+            const string time = "8 AM";
+
 
             // TODO: Declare 2 variables of each type from the list above (1 pair for each) 
             // Make sure to use C# naming convention best practices (camelCase, PascalCase, etc...)
@@ -63,8 +70,13 @@ namespace Variables_Exercise_01
             // TODO: Initialize the other variable with that datatypes maximum value
             // TODO: Write out each of the variables to the Console 
 
+            _sbyte = -128;
+            _byte = 255;
 
-
+            Console.WriteLine("integers");
+            Console.WriteLine($"The values are { _sbyte}  { _byte}");
+           
+            
 
             // **BONUS**
             // TODO: Create your own enum and initialize it with constants of your choosing
